@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <audio id="myAudio">
+        <source src="./sounds/soundOne.wav" type="audio/wav">
+    </audio>
+    <audio id="myAudio2">
+        <source src="./sounds/soundTwo.wav" type="audio/wav">
+    </audio>
+    <audio id="myAudio3">
+        <source src="./sounds/soundThree.wav" type="audio/wav">
+    </audio>
+    <audio id="myAudio4">
+        <source src="./sounds/soundFour.wav" type="audio/wav">
+    </audio>
+    <audio id="myAudio5">
+        <source src="./sounds/soundFive.wav" type="audio/wav">
+    </audio>
+
+    
+        <div>
+
+            <input type="range" id="BassVolume" name="volume"
+            min="0" max="100" class="slider" value="50">
+            <label for="volume" style="color: white; font-family: sans-serif;">Bass Volume</label>
+   
+
+            <input type="range" id="SongVolume" name="volume"
+            min="0" max="100" class="slider" value="50">
+            <label for="volume" style="color: white; font-family: sans-serif;">Song Volume</label>
+        </div>
+
+
+    <ul class="set">
+        <li class="white b">
+            <p style="font-size: 12px; font-family: sans-serif; position: relative; top: 20vh; right: -1vh; font-weight: bold;">Kick</p>
+        </li>
+        <li class="black as"></li>
+        <li class="white a">
+            <p style="font-size: 12px; font-family: sans-serif; position: relative; top: 20vh; right: -1vh; font-weight: bolder;">808</p>
+        </li>
+        <li class="black gs"></li>
+        <li class="white g">
+                <p style="font-size: 12px; font-family: sans-serif; position: relative; top: 20vh; right: -1vh; font-weight: bold;">Clap</p>
+        </li>
+        <li class="black fs"></li>
+        <li class="white f">
+            <p style="font-size: 12px; font-family: sans-serif; position: relative; top: 20vh; right: -1vh; font-weight: bold;">Hi-Hat</p>
+        </li>
+        <li class="white e">
+            <p style="font-size: 12px; font-family: sans-serif; position: relative; top: 20vh; right: -1vh; font-weight: bold;">Song</p>
+        </li>
+            <li class="black ds"></li>
+            <li class="white d"></li>
+            <li class="black cs"></li>
+            <li class="white c"></li>
+      </ul>
+
+
+
+      <script type="module" src="./scripts/F.js"></script>
+      <script type="module" src="./scripts/G.js"></script>
+      <script type="module" src="./scripts/A.js"></script>
+      <script type="module" src="./scripts/B.js"></script>
+      <script type="module" src="./scripts/C.js"></script>
+</body>
+</html>
